@@ -1,0 +1,86 @@
+/* -----Fonts---- */
+@font-face {
+  font-family: 'Epilogue';
+  src: local('Epilogue Light'), local('Epilogue-Light'),
+    url('../fonts/Epilogue-Light.woff2') format('woff2'),
+    url('../fonts/Epilogue-Light.woff') format('woff'),
+    url('../fonts/Epilogue-Light.ttf') format('truetype'),
+    url('../fonts/Epilogue-Light.eot') format('eot');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Epilogue';
+  src: local('Epilogue Regular'), local('Epilogue-Regular'),
+    url('../fonts/Epilogue-Regular.woff2') format('woff2'),
+    url('../fonts/Epilogue-Regular.woff') format('woff'),
+    url('../fonts/Epilogue-Regular.ttf') format('truetype'),
+    url('../fonts/Epilogue-Regular.eot') format('eot');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Epilogue';
+  src: local('Epilogue SemiBold'), local('Epilogue-SemiBold'),
+    url('../fonts/Epilogue-SemiBold.woff2') format('woff2'),
+    url('../fonts/Epilogue-SemiBold.woff') format('woff'),
+    url('../fonts/Epilogue-SemiBold.ttf') format('truetype'),
+    url('../fonts/Epilogue-SemiBold.eot') format('eot');
+  font-weight: 600;
+  font-style: normal;
+}
+/* ----/fonts---- */
+
+:root {
+  --primary-font-family: 'Epilogue', sans-serif;
+
+  --color-dark-green: #1e2827;
+  --color-black: #141414;
+  --color-white: #ffffff;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28; /*18*/
+  letter-spacing: -0.02em;
+}
+
+.container {
+  width: 100%;
+  min-width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px dashed tomato;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+}
+
+.test {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}

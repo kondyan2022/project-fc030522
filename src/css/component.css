@@ -1,0 +1,26 @@
+.style-header-one {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.03;
+  letter-spacing: -0.04em;
+}
+.style-header-two {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.style-header-three {
+  font-size: 38px;
+  line-height: 1.05px;
+}
+.style-main-text {
+  font-weight: 300;
+}
+.style-text {
+  font-size: 18px;
+  line-height: 1.33;
+}
+.style-text-one {
+  font-size: 12px;
+  line-height: 1.16;
+}
