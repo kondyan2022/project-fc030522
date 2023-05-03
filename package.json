@@ -1,11 +1,11 @@
 {
-  "name": "TheWatchSpot",
+  "name": "project-fc030522",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/TheWatchSpot/",
+    "build": "vite build --base=/project-fc030522/",
     "preview": "vite preview"
   },
   "devDependencies": {
