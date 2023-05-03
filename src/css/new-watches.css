@@ -1,0 +1,37 @@
+.new-watch-title {
+    margin-bottom: 8px;
+    letter-spacing: 0.06em;
+    color: var(--color-black-transparent);
+  }
+  
+  .new-watch-text {
+    margin-bottom: 40px;
+    font-style: normal;
+  }
+  
+  .new-watch-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+  
+  
+@media screen and (min-width: 768px) {
+    .new-watch-text {
+        width: 448px;
+        }
+
+    .new-watch-list {
+        flex-direction: row;
+    }
+}
+  
+@media screen and (min-width: 1280px) {
+    .new-watch-text {
+      margin-bottom: 80px;
+    }
+  
+    .new-watch-list {
+      gap: 24px;
+    }
+}
