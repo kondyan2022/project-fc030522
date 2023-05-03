@@ -122,6 +122,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 1.25;
+  letter-spacing: -0.02em;
   color: var(--color-dark-green);
 }
 @media screen and (min-width: 768px) {
