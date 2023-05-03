@@ -1,0 +1,40 @@
+.about-title {
+  margin-bottom: 40px;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-wrap {
+    display: flex;
+    justify-content: space-between
+  }
+
+
+  .about-list {
+    flex-direction: row;
+  }
+
+  .about-item {
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 1280px)  {
+  .about-list {
+    gap: 40px;
+  }
+
+  .about-item {
+    width: 426px;
+  }
+
+  .gif {
+    margin-left: auto;
+  }
+}
