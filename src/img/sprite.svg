@@ -22,5 +22,9 @@
 <symbol id="heart" viewBox="0 0 35 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M30.313 5.251c-0.743-0.743-1.625-1.333-2.596-1.735s-2.011-0.609-3.062-0.609-2.091 0.207-3.062 0.609c-0.971 0.402-1.853 0.992-2.596 1.735l-1.542 1.542-1.542-1.542c-1.501-1.501-3.536-2.344-5.658-2.344s-4.158 0.843-5.658 2.344c-1.501 1.501-2.344 3.536-2.344 5.658s0.843 4.158 2.344 5.658l12.858 12.858 12.858-12.858c0.743-0.743 1.333-1.625 1.735-2.596s0.609-2.011 0.609-3.062-0.207-2.091-0.609-3.062c-0.402-0.971-0.992-1.853-1.735-2.596v0z"></path>
 </symbol>
+<symbol id="x" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 8l16 16"></path>
+</symbol>
 </defs>
 </svg>
