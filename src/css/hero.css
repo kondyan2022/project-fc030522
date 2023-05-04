@@ -1,0 +1,151 @@
+.hero {
+  background-color: var(--color-black);
+}
+
+.hero > .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  min-width: 0;
+}
+@media screen and (min-width: 768px) {
+  .hero > .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero > .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 43px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    /* position: relative;
+    display: block;
+    height: 701px; */
+  }
+}
+.hero-title {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title {
+    /* position: absolute;
+    top: 80px;
+    left: 52px; */
+    width: 750px;
+  }
+}
+.hero-text {
+  width: 248px;
+  color: var(--color-white);
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .hero-text {
+    margin-top: 70px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-text {
+    align-self: flex-start;
+    width: 282px;
+    margin-top: 0px;
+  }
+}
+.slider-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  margin-left: 0;
+  margin-right: auto;
+
+  width: 266px;
+  min-width: 50px;
+  row-gap: 20px;
+}
+
+.swiper-wrapper {
+  width: 266px;
+  height: 200px;
+  justify-self: start;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 266px;
+  height: 200px;
+
+  background-color: var(--color-dark-green);
+}
+
+@media screen and (max-width: 266px) {
+  .slider-container {
+    width: 100%;
+    height: auto;
+  }
+  .swiper-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .swiper-slide {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider-container {
+    width: 436px;
+    /* height: 255px; */
+  }
+  .swiper-wrapper {
+    width: 436px;
+    height: 255px;
+  }
+
+  .swiper-slide {
+    width: 436px;
+    height: 255px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .slider-container {
+    order: 2;
+    /* position: absolute;
+    left: 52px;
+    bottom: 80px; */
+  }
+}
+.button-prev,
+.button-next {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-white);
+  border-radius: 8px;
+}
+
+.swiper-pagination {
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-picture-box {
+    order: 3;
+    /* position: absolute;
+    right: 52px;
+    bottom: 80px; */
+  }
+}
