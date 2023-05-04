@@ -118,8 +118,8 @@
 
 @media screen and (max-width: 767px) {
   .modal-wrapper {
-    top: 65%;
-    transform: translate(-50%, -35%) scale(1);
+    top: 0;
+    transform: translate(-50%, 0%) scale(1);
     padding: 60px 20px 40px 20px;
     flex-direction: column;
   }
