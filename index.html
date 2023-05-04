@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- ---Заменить SVG--- -->
+
     <link rel="icon" type="image/svg+xml" href="/project-fc030522/assets/logo-174102a3.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to our collection of premium watches</title>
@@ -21,14 +21,229 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <link rel="stylesheet" href="/project-fc030522/assets/index-a80d2c50.css">
+    <link rel="stylesheet" href="/project-fc030522/assets/index-ddf00ed8.css">
   </head>
   <body>
     <header>
       
     </header>
     <main>
-      
+      <section class="section hero">
+  <div class="container">
+    <h1 class="hero-title style-header-one">
+      Welcome to our collection of premium watches
+    </h1>
+    <div class="swiper slider-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-1-m-45516371.webp 226w, /project-fc030522/assets/hero-sl-watch-1-m-2x-40cb1b0e.webp 452w"
+              type="image/webp"
+              sizes="(max-width: 767px) 226px, 100vh"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-1-m-707b71d6.png 226w, /project-fc030522/assets/hero-sl-watch-1-m-2x-01d40300.png 452w"
+              sizes="(max-width: 767px) 226px, 100vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-1-td-1478ab2c.webp 348w, /project-fc030522/assets/hero-sl-watch-1-td-2x-c3cc81a4.webp 696w"
+              type="image/webp"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-1-td-a33059b4.png 348w, /project-fc030522/assets/hero-sl-watch-1-td-2x-f57beef0.png 696w"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <img
+              src="/project-fc030522/assets/hero-sl-watch-1-m-707b71d6.png"
+              alt="watch"
+              class="hero-slider-image"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="data:image/webp;base64,UklGRkwNAABXRUJQVlA4WAoAAAAQAAAA4QAAvQAAQUxQSHIDAAABoINte2JN+VZwC1LpyeLOVFQW3GFwh/WtcPehc1ZKbA7urhXBHabFgzsEl9++Bk3eeYNfETEB8r9OV7W/OBgMlp/0M0usaVeZxN6M9rLL2+F1/tEf9TdPfPPNiP7yyBcjH/qjSPOa8mWkdUk9SJpPSpcpoI05ezytIzgLaZ3I2TtpNZRZTfs8yrZI7GLKbGJXFlBL2UaJXU1Zldh9lG2T2EOUucSuL6D2Hyz7FtBxid1CWZPYg5QNE3uZMp+YLsPY06ltxpc5VlMPtSFrWtAMY1MxtX3UPKPlyY5prp6nRZovTRtqxi1LbU6BJDuek1YctZr1fIqs5h0MQ2dkphVDXW53ElRp9gTNz+9YeozmH+iZDkArckxA4MmpFWEccNNB0OOoqRRjR00LQmti7NcoOmLmK8zptFQRhzestAq0JsUp0udIaaGoo6SKWLqlCTF3KtijCZmuaB8zdBjF29DhAcVpZNSKuCXDQ1JHRaOYH6cigtKziZivqOPyPARY2tDgFHcwLHhg6kgwEZknYbpCNxwEbA0Hir2jYDq4QMGd4NQxENDdRYBT9F0B6eAvoar/tsPXiqmcs2XjVVVjn+2K7xddjx3UG02PTe8N32MHF9C+vRF67Ije6Hps/97wPXZ4AR1UQNN7Y3rJdD/TmZIZeFWNjfT4ET1gnHOV7bMKnhcCPyug19BNZ+AkdI4BBy4Ig2YCm6dAPLaGA4dNSIzIHmGhQXYUC2YcV2dYEI+rFRq3gxUrHuRuVK0QaSIoy4R4TMcJlXVE1FkuxAOKtbAZ8dwpdC6AEys+pENznBBag+ksI9JhaYTSGoo3nMgQiRNSHZBHhNYbcTheHAwvxA5RTGfGgYiGGQkYjhNqGwjBcGMh3CnkPoygYmc6gCD0Aqj5WZif8LtJdncRJI/kVjM0L7NoGDKZeaHY5+U4OjaraDgyWd0pJHc51SzNySgIy4uHfBxNYkMujRBtT/M5xOOE7Ca5N53QvXVyOwrfSxWQJLdHATnGvkhtS8ZCaoMCMgW0UgFNYezV1CYx9mhqhrFrU5vC2BWJfSeMN4k9Q9msxB6h7IjEnqTMJeYp2yaxuyhbN7GWssFo+UwK5SMl9GoBPVJANxTQsIDOLyDXXvdS+Pm3QghvhBA+/fp7nXhrRFW/i9+p6vjEz3w9wlqKk+W/uAFWUDggtAkAALA0AJ0BKuIAvgA+kUidS6WkP6Gik3pb8BIJaW7hcpEdzA4m/qM+JPnexAc9oDX2U8AJ32WppR8h3ozZ8FQvpCfup7KH7Mj7IbbxmHUVmzKbUEKV/swZhlMgdkNrjK+mE0pdHLu5+QS+qcuL0d42tu6stv3UqK5kRiShMvRnE3429N8eLkFJy4u97PAqr9Ywne8aTdzAXaEtTjnXsdqxB9v3Rf4HYjyw7EXo90TpoNrPE8+qsbo5JsA4uyQTlJYYYtPWXmo24VRozO/48c2PEapqjFNFTe6ZAtJPOa+0DjIRi8C0aZCqNmWxggwkNaLHZ/kZ4Wy5pGAP2Kkpw6lJtpftm9WO3R7xUEt5yMchmOfj6BFq4cMIb1xd9t5eHZDaiUJqqDNhrTL9pqFg75lyZ+DUgDGr9y5hW+phcHd8fdQ5J9OS8ayA9Mv209B+7NQg2IAdg6mb3ZrpYFSPQnLM7zytAnJIJqTre8/Hi9HumPOtl62ctMMi2UKtAx18biqoZGhFrcLUpOW7rK5QDWeo4nHxVYtBO4dkOFp8nmT1rfvAftEQspDwXRhBnTL9dAAA/v9K1pNdtPh0Lyd8VDyFJ1/8xN0kMktf6pUvu2htknxwJUAIBTHma3px/+JG6P2/bCOvcnzjShkoUkGU8Ubhf1wuJ/2vAeQhOIdNTyVw8a0uJmSqf6urxufo9QA1AFi6yChz/XzwVTU0dJ8m1D3Hws9n6V7l6gD19ZIrPVLsZ05zX6aEtyUJE7rgOMq8KdQzj7SF0aKt3PGR6GzJKwSbuB1ll7yqKzPlhWD2Q3YMCrxmXoa9PqPmhTmWKb1pbOPXQHsjm1c0Gg2ShFNnEykwGpz6ZjKNLhVoDb/BJ2YVmMFkO4n/WZ+EZrFJjPw/YjaA0zTfqhSaxuLo4alF3DZbrl/1861xUTAFsXGwtcbLqChaP6nlB+yR7pnZGrjbnGO7j28XOCx8qgAlW20saQw9c4qoAYTmh9byA1Rx++A1s++LCBgQ/5zO7a1kOb1sypHzd61thyBgUNF2UUpqCXVDFPRG88WtupTpgX46vbjDlYpvS+JIJ66ozkqEtphIvVOa76+maQeo05pQxvKY82KWikm7+fjtog7ochShIdqTysaRjNeAmeGWW99k6YG/4pS1RP9nZrPdKBaxFfmCtq7Lr0j3EoGIDlEWClIz77hlyGmlMD7zQ+9mtd5sOEH7nAxEj/AS1V0kLVssqxQnYBj0vaOPH6TgTjYLk1mYTmCywUhzkO4mpX005Y8TQenAP1F11sfQcMtpN8J4mbZA9V8lnOOXp0bTIlnJ6Kk/27Do3prFoiWjKoM9ErC9oGUVCHw1ZX0Gf94zfDbwSOl8B2Hx3aYtxkLRD+ScD4E+4o6vlU7Rr1jr1ebsFjPt5095ReGvOJ0Sb9pbqXS3kjjDlm9ls7vBxdmUroOzWJ2vyuKFvn+qhsF3bGan8ymzoP+Npq1pBihOG0X1++FQYnKEuVbZVTdGoyMNMDgYBHIf3AD2OdWtoYN3SssjeKDkUqWLvcqOT4fTJ7zymbD0P5Cf7ywFUW4dWRO0/0WjJ6suZwJ47Io+AR3bWLYaONZ2EdZqxmAPXCa8CWBcu8D5YmhMonJ76xCNETkCeFCLEwbMwX5w/JIj/kFI914BPf+A+H9KO8FrgD/HElMCB+wWx63dCaOncRbz4f0A1Bbnu7jg4XHyCDI07J4tfnESDeMgxnSZ02/ra9EJoK3SiSLrYO96mSS4M8KBCwK5NxCL/eV0Vz752H5DuXvyfzzFTSC3nj/c4+Bem4R93JiSgDTht2zmUxL5qMvd1v0PPvuJBCsGtFAbfTHY6RBM2oBnFGpcD2HykhnRWqfj8tK9Ey784FGIjkieIJJmp/M3KCMu61tt2K8/dm00TWB/WkaNSAIzsArv/p1hhrybISBPD+V8/vAZfc/DVyOnng+D/s7ArxqPzLQb17zAHW/z4wzVieO4gRYqV/a8LEJPVQQuHcMGZW/eQLUyLxTCXk91Tte5lY/aC5RGvlnzGlZmJAsnBlT9BtSpI+qiCpiXdTtdF3a0vTfSMzri6A4UO2q8l5XmIIrbmphezoQCfYrcjO7vnefwi++USZoC8CQzvtyv4sFAocdtzZEPjiuEnKoHryFxQdM5LmJeFV9y0Y/YTSvFCdTiJmw36XQ4DGmaAbeI3JpYX4Sra3gKg6yIkoqvaCbVwbpTiVWzxM80tR4IV47s3TVIdt8sJjxg4VbqrS6MJEwLdibLtpgVVHO+E/noR/LoABKdoHKYaRmWG3lm/n6GC2cAI+0yLQT3NZFz1Hqn/V+lg7G0jwlzjGr+wE+Pd/4FBJnIE+tED7n5zAhR2fjLziBnN77+nYrxoymnKO1JbjDyc6xVma3G04uE59AghRLbRzziXh01A1/bpWm9q6Dxt4UBuR3rMMMWypdtgE7gzaVL/l/EsNQdS0w32Y8FBAY2bikLvdUIM5f7PWcqSl62hqRGb1CIcUM5mzkT8IEBFMz2k+oVNVrCENBzqU27KSYDS7oVFLgEQpw4NIrW26HjNeRjnieGtN3SADvMW4dNml9OLAQIXy9z+y/N7pZqeBnUJqCJZvALtN60nZj+ggqSgSTz2aZi/NxYEMOwRoT/U/qkxlNMr4pklq5oLwEn1ZDegEx3QS1vf+C+Un2kvFVdcJOz2UnvwFmMh6AZY/AJuIFQ+IesaoqBCx3QjSrko3RpbuRzpgS26pxbfBytg9LrODu5d6Lwip3y0E7U6/O94d9DinE83+BiGjID3xPmVdNaribTn1vITeH3UXr4VHu2lmXwyPMDautLs+ib+uq4N3SbdUtH2ySa5x9iiOTZg+DAA/asEVmOBRM6J81aBnYaTZrmdtuEUh3V9T58BXOJa2Y1TBFaqV1pooCSSE1J1LvkoshuN2yv4o2issz4KYIGtb+gtFBLsXqSeFYQrxUGQqqSyQ1rctWWibO/4xuDR1THNefDe2kycM48cuPo2+kFc6lbH/pvy57405ff6HbXqKACAnaVRgA5tOnl5qAZoBPWFBrFVE3O4/T6hxpwb99ZV540v6e0lwLrv1JSeZoZlBy9AGqxALG+AbugASOifxfzz7tK3/1EilM03cgJXg5gNocNTpVKzzCRAYq3znfu3iAcMK7QcEooRjR4PYY/mdgKfwc7YOEDSuQ2AfQ3W/A8It+JVBrAK8zxUgmtFnuvTaNubaeQ0NMbUfApk0lubA0H9/LQCeEXueao6K2xomIVxcEKS3H3wC0DIRKCixWqSIcC3DYFAqPNit7Bwll6Xuluwku797FCHIA5sAAAAA== 226w, /project-fc030522/assets/hero-sl-watch-2-m-2x-7f2a127b.webp 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-2-m-95138ce6.png 226w, /project-fc030522/assets/hero-sl-watch-2-m-2x-9ddc1e81.png 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-2-td-c0c314c5.webp 348w, /project-fc030522/assets/hero-sl-watch-2-td-2x-27e92e6f.webp 696w"
+              type="image/webp"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-2-td-ed591c06.png 348w, /project-fc030522/assets/hero-sl-watch-2-td-2x-0a60b129.png 696w"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <img
+              src="/project-fc030522/assets/hero-sl-watch-2-m-95138ce6.png"
+              alt="watch"
+              class="hero-slider-image"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-3-m-156ffea6.webp 226w, /project-fc030522/assets/hero-sl-watch-3-m-2x-58d02679.webp 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-3-m-2d21e26e.png 226w, /project-fc030522/assets/hero-sl-watch-3-m-2x-d8a5963a.png 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-3-td-5f098a89.webp 348w, /project-fc030522/assets/hero-sl-watch-3-td-2x-9b6493ed.webp 696w"
+              type="image/webp"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-3-td-d2aa5a6e.png 348w, /project-fc030522/assets/hero-sl-watch-3-td-2x-f36aff64.png 696w"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <img
+              src="/project-fc030522/assets/hero-sl-watch-3-m-2d21e26e.png"
+              alt="watch"
+              class="hero-slider-image"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-4-m-c54c484f.webp 226w, /project-fc030522/assets/hero-sl-watch-4-m-2x-49de2b6d.webp 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-4-m-39dfbac7.png 226w, /project-fc030522/assets/hero-sl-watch-4-m-2x-16b0b26b.png 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-4-td-e182dea9.webp 348w, /project-fc030522/assets/hero-sl-watch-4-td-2x-940e490d.webp 696w"
+              type="image/webp"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-4-td-edcdc2d8.png 348w, /project-fc030522/assets/hero-sl-watch-4-td-2x-9cdfcc83.png 696w"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <img
+              src="/project-fc030522/assets/hero-sl-watch-4-m-39dfbac7.png"
+              alt="watch"
+              class="hero-slider-image"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-5-m-315a0c4a.webp 226w, /project-fc030522/assets/hero-sl-watch-5-m-2x-c4f835c1.webp 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-5-m-bb45b9f9.png 226w, /project-fc030522/assets/hero-sl-watch-5-m-2x-5e3f90bc.png 452w"
+              sizes="(max-width: 767px) 226px, 60vh"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-5-td-c9d447f3.webp 348w, /project-fc030522/assets/hero-sl-watch-5-td-2x-d8c9309f.webp 696w"
+              sizes="(min-width: 768px) 348px, 40vh"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-fc030522/assets/hero-sl-watch-5-td-0c0a45cd.png 348w, /project-fc030522/assets/hero-sl-watch-5-td-2x-deff927b.png 696w"
+              sizes="(min-width: 768px) 348px, 40vh"
+            />
+            <img
+              src="/project-fc030522/assets/hero-sl-watch-5-m-bb45b9f9.png"
+              alt="watch"
+              class="hero-slider-image"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="button-prev">
+        1
+        <!-- <svg class="slider-icon">
+          <use href="./img/logo.svg" class="slider-icon-prev"></use>
+        </svg> -->
+      </div>
+      <div class="button-next">2</div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <p class="hero-text style-main-text">
+      Our watches are not just timepieces, but also an expression of your
+      personality and lifestyle. From classic designs to modern ones, we have a
+      watch to suit every taste and occasion.
+    </p>
+    <picture class="hero-picture-box">
+      <source
+        media="(max-width: 767px)"
+        srcset="/project-fc030522/assets/hero-watch-m-bc118dcb.webp 335w, /project-fc030522/assets/hero-watch-m-2x-6c1c59e5.webp 670w"
+        type="image/webp"
+        sizes="(max-width: 767px) 335px, 100vh"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/project-fc030522/assets/hero-watch-m-5373ee14.jpg 335w, /project-fc030522/assets/hero-watch-m-2x-dc3c11d7.jpg 670w"
+        sizes="(max-width: 767px) 335px, 100vh"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-fc030522/assets/hero-watch-t-45ffbc98.webp 704w, /project-fc030522/assets/hero-watch-t-2x-13225b5f.webp 1408w"
+        type="image/webp"
+        sizes="(min-width: 768px) 704px, 100vh"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-fc030522/assets/hero-watch-t-359b60e6.jpg 704w, /project-fc030522/assets/hero-watch-t-2x-47d1c6e9.jpg 1408w"
+        sizes="(min-width: 768px) 704px, 100vh"
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="/project-fc030522/assets/hero-watch-d-dbe8600f.webp 676w, /project-fc030522/assets/hero-watch-d-2x-4050d801.webp 1352w"
+        type="image/webp"
+        sizes="(min-width: 1280px) 676px, 60vh"
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="/project-fc030522/assets/hero-watch-d-57564485.jpg 676w, /project-fc030522/assets/hero-watch-d-2x-f7ad6ce2.jpg 1352w"
+        sizes="(min-width: 1280px) 676px, 60vh"
+      />
+      <img src="/project-fc030522/assets/hero-watch-t-359b60e6.jpg" alt="watch on hand" class="hero-img" />
+    </picture>
+  </div>
+</section>
+
       <section class="section about-section">
     <div class="container">
         <div class="about-wrap"> 
@@ -757,5 +972,6 @@
     <!-- <script type="module" src="/main.js"></script> -->
     <!-- ----- JS swiper slider ----------- -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
