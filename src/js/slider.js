@@ -1,4 +1,4 @@
-new Swiper('.slider-container', {
+const slider = new Swiper('.slider-container', {
   slidesPerView: 1,
   spaceBetween: 10,
   keyboard: { enabled: true },
