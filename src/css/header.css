@@ -1,0 +1,116 @@
+.header {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    background-color: var(--color-black, #141414);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-link {
+    display: flex;
+    align-items: center;
+    /* gap: 4px; */
+}
+
+.header-logo {
+    width: 14px;
+    height: 14px;
+}
+
+.header-logo-text {
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--color-white, #FFFFFF);
+}
+
+.burger-menu-btn {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    fill: var(--color-white, #FFFFFF);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .header-navigation-list {
+        display: none;
+    }
+
+    .header-address {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+
+    .header-navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo {
+        width: 19px;
+        height: 19px;
+    }
+
+    .header-logo-text {
+        font-size: 12px;
+    }
+
+    .header-navigation-list {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    .header-navigation-link {
+        font-size: 9px;
+        line-height: 1.33;
+        text-transform: uppercase;
+        color: var(--color-white, #FFFFFF);
+    }
+
+    .header-button {
+        display: block;
+        text-align: center;
+        width: 159px;
+        height: 48px;
+        padding: 18px 36px 18px 35px;
+        font-style: normal;
+        font-size: 9px;
+        line-height: 1.33;
+        text-transform: uppercase;
+        color: var(--color-white, #FFFFFF);
+        background-color: var(--color-dark-green, #1e2827);
+        border-radius: 8px;
+    }
+
+    .burger-menu-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        padding-bottom: 0;
+    }
+
+    .header-logo-text {
+        font-size: 15px;
+    }
+
+    .header-button {
+        padding: 18px 35px 18px 36px;
+    }
+}
