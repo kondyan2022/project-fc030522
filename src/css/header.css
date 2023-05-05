@@ -1,4 +1,5 @@
 .header {
+    min-width: 200px;
     padding-top: 29px;
     padding-bottom: 29px;
     background-color: var(--color-black, #141414);
@@ -64,7 +65,7 @@
     }
 
     .header-logo-text {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .header-navigation-list {
@@ -104,10 +105,6 @@
 @media screen and (min-width: 1280px) {
     .header {
         padding-bottom: 0;
-    }
-
-    .header-logo-text {
-        font-size: 15px;
     }
 
     .header-button {

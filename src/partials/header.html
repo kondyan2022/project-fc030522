@@ -2,18 +2,26 @@
   <div class="container header-container">
     <nav class="header-navigation">
       <a class="header-logo-link" href="./index.html">
-        <img class="header-logo" src="./img/logo.svg" alt="site logo" />
+        <picture>
+            <source srcset="./img/logo-td.png 1x,
+                            ./img/logo-td-2x.png 2x" 
+                    media="(min-width: 768px)" />
+            <source srcset="./img/logo-m.png 1x,
+                            ./img/logo-m-2x.png 2x" 
+                    media="(max-width: 767px)" />
+            <img src="./img/logo-td.png" class="header-logo" alt="site logo" width="19" height="19" />
+        </picture>
         <span class="header-logo-text">thewatchspot</span>
       </a>
       <ul class="header-navigation-list">
         <li class="header-navigation-item">
-          <a class="header-navigation-link" href="">About us</a>
+          <a class="header-navigation-link" href="#about">About us</a>
         </li>
         <li class="header-navigation-item">
-          <a class="header-navigation-link" href="">Catalog</a>
+          <a class="header-navigation-link" href="#catalog">Catalog</a>
         </li>
         <li class="header-navigation-item">
-          <a class="header-navigation-link" href="">sale</a>
+          <a class="header-navigation-link" href="#sale">sale</a>
         </li>
       </ul>
     </nav>
