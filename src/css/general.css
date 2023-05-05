@@ -59,7 +59,7 @@ body {
   min-width: 200px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 2px dashed tomato;
+  /* outline: 2px dashed tomato; */
 }
 
 @media screen and (min-width: 375px) {
