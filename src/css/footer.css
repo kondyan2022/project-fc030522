@@ -6,7 +6,8 @@
 .footer-wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 136px;
+  justify-content: space-between;
+  row-gap: 40px;
   margin-bottom: 80px;
 }
 .footer-logo {
@@ -85,9 +86,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .footer-wrap{
-      justify-content: space-between;
-    }
     .footer {
       padding-top: 80px;
     } 
@@ -127,11 +125,17 @@
       width: 28px;
       height: 28px;
     }
+    .footer-navigation {
+      width: 81px;
+    }
     }
     @media screen and (min-width: 1280px) {
     .footer {
       padding-top: 104px;
       padding-bottom: 32px;
-      }
+    }
+      .footer-navigation {
+        width: 115px;
+    }
     }
 
