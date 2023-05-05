@@ -92,6 +92,9 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.modal-form-input:invalid {
+  border-color: red;
+}
 .modal-form-input::placeholder {
   color: var(--color-black-semitransparent);
 }
@@ -140,7 +143,6 @@
   }
   .modal-wrapper {
     gap: 20px;
-    justify-content: space-between;
     max-width: none;
     width: 744px;
     max-height: none;
