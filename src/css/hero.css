@@ -191,6 +191,7 @@
 @media screen and (min-width: 768px) {
   .slider-pagination {
     width: 80px;
+    user-select: none;
   }
   .slider-pagination::after {
     width: 40px;
