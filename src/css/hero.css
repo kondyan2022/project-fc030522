@@ -40,13 +40,18 @@
   }
 }
 .hero-text {
-  width: 248px;
   color: var(--color-white);
-
+  max-width: 248px;
   margin-left: auto;
   margin-right: 0;
   text-align: left;
 }
+/* @media screen and (max-width: 375px) {
+  .hero-text {
+    max-width: 248px;
+  }
+} */
+
 @media screen and (min-width: 768px) {
   .hero-text {
     margin-top: 70px;
@@ -56,7 +61,7 @@
 @media screen and (min-width: 1280px) {
   .hero-text {
     align-self: flex-start;
-    width: 282px;
+    max-width: 282px;
     margin-top: 0px;
   }
 }
