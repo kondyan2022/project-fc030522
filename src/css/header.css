@@ -75,12 +75,12 @@
         margin-left: 80px;
     }
 
-    .header-navigation-link {
+    .header-navigation-link { 
         font-size: 9px;
         line-height: 1.33;
         text-transform: uppercase;
         color: var(--color-white, #FFFFFF);
-    }
+        }
 
     .header-button {
         display: block;
