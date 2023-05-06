@@ -1,8 +1,19 @@
+@media screen and (max-width: 374px) {
+    .burger-menu {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .burger-menu {
+        width: 375px;
+    }
+}
+
 .burger-menu {
     position: fixed;
     top: 0;
     z-index: 2;
-    width: 100vw;
     height: 100vh;
     background-color: var(--color-dark-green, #1e2827);
     padding: 29px 20px;
