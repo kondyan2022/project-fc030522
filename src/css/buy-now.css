@@ -92,8 +92,9 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.modal-form-input:invalid {
+.modal-form-input:not(:placeholder-shown):invalid {
   border-color: red;
+  outline-color: red;
 }
 .modal-form-input::placeholder {
   color: var(--color-black-semitransparent);
