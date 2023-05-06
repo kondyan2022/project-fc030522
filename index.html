@@ -21,8 +21,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-fc030522/assets/index-7b434aa3.js"></script>
-    <link rel="stylesheet" href="/project-fc030522/assets/index-1c1f32d4.css">
+    <script type="module" crossorigin src="/project-fc030522/assets/index-df3639ed.js"></script>
+    <link rel="stylesheet" href="/project-fc030522/assets/index-4f722875.css">
   </head>
   <body>
     <header>
@@ -48,7 +48,7 @@
     <address class="header-address">
       <a class="header-button" href="tel:+380684439426">+380 (68) 443-94-26</a>
     </address>
-    <button class="burger-menu-btn" type="button">
+    <button class="burger-menu-btn" data-mobile-open type="button">
       <svg class="burger-menu-icon" width="24" height="24">
         <use href="/project-fc030522/assets/sprite-6f30d213.svg#burger-menu"></use>
       </svg>
@@ -1269,7 +1269,32 @@
 </footer>
 
     </footer>
-    
+    <div class="burger-menu is-hidden" data-mobile>
+    <div class="burger-menu-container">
+        <button class="burger-menu-close-btn" data-mobile-close type="button">
+            <svg class="burger-menu-close-cross" width="24px" height="24px">
+                <use href="/project-fc030522/assets/sprite-6f30d213.svg#x"></use>
+            </svg>
+        </button>
+        <nav class="burger-menu-navigation">
+            <a class="burger-menu-logo-link" href="./index.html">
+                <img class="burger-menu-logo" src="/project-fc030522/assets/logo-62c47897.svg" alt="site logo" />
+                <span class="burger-menu-logo-text">thewatchspot</span>
+            </a>
+            <ul class="burger-menu-navigation-list">
+                <li class="burger-menu-navigation-item">
+                    <a class="burger-menu-navigation-link" href="#about">About us</a>
+                </li>
+                <li class="burger-menu-navigation-item">
+                    <a class="burger-menu-navigation-link" href="#catalog">Catalog</a>
+                </li>
+                <li class="burger-menu-navigation-item">
+                    <a class="burger-menu-navigation-link" href="#sale">sale</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
     <div class="backdrop is-hidden">
   <div class="modal-wrapper">
     <button class="modal-close-btn" type="button">
