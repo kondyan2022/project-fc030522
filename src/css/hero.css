@@ -32,7 +32,6 @@
 }
 .hero-title {
   margin-bottom: 20px;
-  user-select: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -47,8 +46,6 @@
   margin-left: auto;
   margin-right: 0;
   text-align: left;
-
-  user-select: none;
 }
 @media screen and (min-width: 768px) {
   .hero-text {
@@ -194,7 +191,6 @@
 @media screen and (min-width: 768px) {
   .slider-pagination {
     width: 80px;
-    user-select: none;
   }
   .slider-pagination::after {
     width: 40px;
