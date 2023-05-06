@@ -75,7 +75,7 @@
         margin-left: 80px;
     }
 
-    .header-navigation-item {
+    .header-navigation-link { 
         font-size: 9px;
         line-height: 1.33;
         text-transform: uppercase;
