@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   stroke: var(--color-black);
-  background-color: #fff;
+  background-color: var(--color-white);
   border: none;
   outline: none;
   padding: 5px;
@@ -120,9 +120,7 @@
   line-height: 1.17;
   color: var(--color-black-transparent);
 }
-@media screen and (min-width: 768px) 
-and (max-width: 1279px) 
-and (max-height: 690px) {
+@media screen and (min-width: 768px) and (max-height: 695px) {
   .modal-wrapper {
     top: 0;
     transform: translate(-50%, 0%) scale(1);
