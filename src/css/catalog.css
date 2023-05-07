@@ -24,6 +24,7 @@
 
 .catalog-list-item-p {
   color: var(--color-black);
+  cursor: pointer;
 }
 
 .catalog-list-item-span {
