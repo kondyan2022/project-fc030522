@@ -12,26 +12,39 @@
 @media screen and (min-width: 768px) {
   .about-wrap {
     display: flex;
-    justify-content: space-between
+    gap: 40px;
   }
 
 
   .about-list {
     flex-direction: row;
+    gap: 20px;
   }
 
-  .about-item {
+  .about-item-first {
     width: 220px;
+  }
+
+  .about-item-second {
+    width: 250px;
   }
 }
 
 @media screen and (min-width: 1280px)  {
+  .about-wrap {
+    gap: 110px;
+  }
+
   .about-list {
     gap: 40px;
   }
 
-  .about-item {
-    width: 426px;
+  .about-item-first {
+    width: 439px;
+  }
+
+  .about-item-second {
+    width: 380px;
   }
 
   .gif {
