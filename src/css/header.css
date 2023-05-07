@@ -93,8 +93,8 @@
         line-height: 1.33;
         text-transform: uppercase;
         color: var(--color-white, #FFFFFF);
-        padding-top: 18px;
-        padding-bottom: 18px;
+        padding-top: 38px;
+        padding-bottom: 34px;
     }
 
     .header-button {
@@ -130,5 +130,10 @@
 
     .header-button {
         padding: 18px 35px 18px 36px;
+    }
+
+    .header-navigation-link {
+        padding-top: 38px;
+        padding-bottom: 18px;
     }
 }
