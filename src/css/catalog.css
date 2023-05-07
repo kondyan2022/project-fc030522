@@ -45,8 +45,8 @@
 .flip-card {
     perspective: 1000px; 
 
-    width: 335px;
-    height: 360px;
+    max-width: 335px;
+    min-height: 360px;
     margin-bottom: 14px;
 
     background-color: transparent;
@@ -97,7 +97,7 @@
   }
 
   .flip-card-back-block{
-    width: 236px;
+    max-width: 236px;
     text-align: left;
 }
 
@@ -114,7 +114,7 @@
   }
 
   .flip-card-back-p-desc{
-    width: 162px;
+    max-width: 162px;
   }
 
 .catalog-list-item_mobile_hidden {
