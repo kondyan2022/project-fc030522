@@ -107,16 +107,17 @@
 }
 .modal-submit-btn {
   background-color: var(--color-dark-green);
-  color: var(--color-white);
-  text-transform: uppercase;
   margin-bottom: 12px;
   padding-top: 18px;
-  padding-bottom: 18px;
-  text-align: center;
+  padding-bottom: 13px;
   border: 1px solid transparent;
   border-radius: 8px;
 }
-
+.span-btn-submit {
+  color: var(--color-white);
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
 .modal-submit-btn:is(:hover, :focus) {
   border: 1px solid var(--color-white);
 }
