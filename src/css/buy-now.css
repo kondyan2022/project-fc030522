@@ -55,7 +55,8 @@
   max-width: 276px;
   margin-bottom: 40px;
 }
-.card-buy-watch > img {
+.card-buy-watch > img,
+.card-buy-watch > picture {
   margin-bottom: 39px;
   align-self: center;
 }
