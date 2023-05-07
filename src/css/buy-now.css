@@ -26,7 +26,6 @@
   stroke: var(--color-black);
   background-color: var(--color-white);
   border: none;
-  outline: none;
   padding: 5px;
 }
 .modal-wrapper {
@@ -110,11 +109,18 @@
   background-color: var(--color-dark-green);
   color: var(--color-white);
   text-transform: uppercase;
-  border-radius: 8px;
   margin-bottom: 12px;
   padding-top: 18px;
   padding-bottom: 18px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 8px;
 }
+
+.modal-submit-btn:is(:hover, :focus) {
+  border: 1px solid var(--color-white);
+}
+
 .modal-privacy-police {
   font-size: 12px;
   line-height: 1.17;
