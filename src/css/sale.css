@@ -53,6 +53,8 @@
   margin-bottom: 8px;
 
   color: var(--color-black);
+
+  cursor: pointer;
 }
 
 .sale-product-tag {
