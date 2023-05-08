@@ -90,6 +90,9 @@
   .footer {
     padding-top: 80px;
   }
+  .footer-wrap {
+    margin-bottom: 152px;
+  }
   .footer-logo-image {
     width: 50px;
     height: 50px;
@@ -134,6 +137,9 @@
   .footer {
     padding-top: 104px;
     padding-bottom: 32px;
+  }
+  .footer-wrap {
+    margin-bottom: 174px;
   }
   .footer-navigation {
     width: 115px;
