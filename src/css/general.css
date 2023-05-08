@@ -43,6 +43,10 @@
   --color-grey: #c6cdd1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--primary-font-family);
   font-style: normal;

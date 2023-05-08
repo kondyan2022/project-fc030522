@@ -9,6 +9,11 @@
   margin-bottom: 40px;
 }
 
+.gif{
+  height: 365px;
+  object-fit: cover;
+}
+
 @media screen and (min-width: 768px) {
   .about-wrap {
     display: flex;
@@ -27,6 +32,10 @@
 
   .about-item-second {
     width: 250px;
+  }
+
+  .gif{
+    height: 465px;
   }
 }
 
@@ -48,6 +57,7 @@
   }
 
   .gif {
+    height: 500px;
     margin-left: auto;
   }
 }

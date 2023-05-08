@@ -1,3 +1,6 @@
+.sale-section {
+  padding-bottom: 80px;
+}
 .sale-title {
   margin-bottom: 40px;
   color: var(--color-black);
@@ -132,6 +135,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale-section {
+    padding-bottom: 128px;
+  }
+
   .sale-container {
     max-width: 572px;
   }
@@ -147,6 +154,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sale-section {
+    padding-bottom: 160px;
+  }
+
   .sale-container {
     max-width: 1176px;
   }
