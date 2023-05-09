@@ -25,6 +25,7 @@
 }
 .footer-address-city {
   display: block;
+  width: 141px;
   font-style: normal;
   color: var(--color-white);
 }
@@ -101,6 +102,9 @@
     font-size: 18px;
     line-height: 1.33;
   }
+  .footer-address-city {
+    width: 181px;
+  }
   .footer-copyright-text {
     margin-bottom: 0px;
     font-size: inherit;
@@ -128,6 +132,9 @@
   .footer-social-nav-icon {
     width: 28px;
     height: 28px;
+  }
+  .footer-social-nav {
+    gap: 16px;
   }
   .footer-navigation {
     width: 81px;
