@@ -75,6 +75,13 @@
   color: var(--color-black-semitransparent);
   align-items: start;
 }
+.modal-watch-sale {
+  font-size: 11px;
+  line-height: 1.23;
+  margin-left: 4px;
+  color: var(--color-black-semitransparent);
+  text-decoration-line: line-through;
+}
 .modal-form-wrapper {
   display: flex;
   flex-direction: column;
