@@ -199,10 +199,10 @@
 @media screen and (min-width: 1280px) {
   .modal-wrapper {
     gap: 40px;
-    width: 898px;
+    width: 904px;
   }
   .modal-form {
-    width: 904px;
+    width: 504px;
     margin-top: 40px;
   }
   .modal-form-wrapper {
