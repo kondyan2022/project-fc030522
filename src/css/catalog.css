@@ -155,9 +155,7 @@
   .flip-card:hover .flip-card-inner {
     transform: none;
   }
-  .catalog-wrap {
-    background-color: var(--color-white);
-  }
+
   .catalog-title {
     margin-bottom: 64px;
   }
