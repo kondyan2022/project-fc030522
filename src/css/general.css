@@ -57,13 +57,7 @@ body {
   letter-spacing: -0.02em;
 
   color: var(--color-black);
-
-}
-
-@media screen and (min-width: 1280px) {
-  body{ 
-    background-color: var(--main-background-color);
-  }   
+  background-color: var(--main-background-color);
 }
 
 .container {
