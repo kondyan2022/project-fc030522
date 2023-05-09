@@ -47,7 +47,8 @@ const saleProduct = document.querySelector('.sale-block-title');
 saleProduct.addEventListener('click', event => {
   const parentPicture = document.querySelector('.card-buy-watch');
   //   add by Yan
-  const parent = event.target.closest('.sale-list-item');
+  const parent = document.querySelector('.sale-list-item');
+  console.log(parent);
   //   add by Yan
   parentPicture.querySelector('picture').textContent = '';
   parentPicture
