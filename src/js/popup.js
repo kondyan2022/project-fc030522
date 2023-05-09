@@ -46,14 +46,15 @@ const saleProduct = document.querySelector('.sale-block-title');
 
 saleProduct.addEventListener('click', event => {
   const parentPicture = document.querySelector('.card-buy-watch');
-  //   add by Yan
-  const parent = document.querySelector('.sale-list-item');
-  console.log(parent);
-  //   add by Yan
+
+  const parent = document.querySelector('.sale-list-item'); //add
+
   parentPicture.querySelector('picture').textContent = '';
+
   parentPicture
     .querySelector('picture')
-    .insertAdjacentHTML('afterbegin', clearClasses(parent));
+    .insertAdjacentHTML('afterbegin', clearClasses(parent)); //change
+
   document.querySelector('.modal-watch-name').textContent =
     event.target.textContent.trim();
   document.querySelector('.modal-watch-price').textContent = '€700';
