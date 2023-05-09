@@ -136,6 +136,26 @@
   color: var(--color-black-transparent);
   width: 100%;
 }
+@media screen and (min-width: 200px) and (max-width: 249px) {
+  .modal-watch-name {
+    max-width: 230px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 319px) {
+  .modal-watch-name {
+    max-width: 240px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 329px) {
+  .modal-watch-name {
+    max-width: 250px;
+  }
+}
+@media screen and (min-width: 330px) and (max-width: 350px) {
+  .modal-watch-name {
+    max-width: 260px;
+  }
+}
 @media screen and (max-width: 351px) {
   .modal-wrapper {
     width: 100%;
