@@ -140,6 +140,9 @@
   .modal-wrapper {
     width: 100%;
   }
+  .modal-watch-name {
+    white-space:normal;
+  }
 }
 @media screen and (min-width: 768px) and (max-height: 695px) {
   .modal-wrapper {
