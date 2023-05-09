@@ -76,7 +76,7 @@
   justify-content: center;
   overflow: hidden;
 
-  background-color: #ffffff;
+  background-color: inherit;
 }
 
 .flip-card-back {
@@ -96,7 +96,7 @@
 
 .catalog-desc-span {
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .catalog-desc-p {
@@ -128,7 +128,7 @@
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white);
 
   background: var(--color-dark-green);
   border: none;
@@ -154,6 +154,9 @@
 @media screen and (min-width: 1280px) {
   .flip-card:hover .flip-card-inner {
     transform: none;
+  }
+  .catalog-wrap {
+    background-color: var(--color-white);
   }
   .catalog-title {
     margin-bottom: 64px;
