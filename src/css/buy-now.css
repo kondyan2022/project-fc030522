@@ -182,9 +182,10 @@
     margin-right: 40px;
     margin-top: 66px;
     align-self: start;
+    width: 368px;
   }
   .modal-form-wrapper {
-    width: 368px;
+    width: 100%;
     max-width: none;
   }
   .modal-form-input::placeholder {
@@ -201,10 +202,11 @@
     width: 898px;
   }
   .modal-form {
+    width: 904px;
     margin-top: 40px;
   }
   .modal-form-wrapper {
-    width: 508px;
+    width: 100%;
   }
   .modal-form-input {
     margin-bottom: 24px;
