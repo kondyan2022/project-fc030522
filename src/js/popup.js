@@ -25,8 +25,7 @@ catalog.addEventListener("click", (event) => {
 })
 
 const saleProduct = document.querySelector(".sale-block-title");
-const codeElementPicture = `<picture>
-<source
+const codeElementPicture = `<source
   srcset="./img/watches-8.webp 1x, ./img/watches-8-2x.webp 2x"
   type="image/webp"
 />
@@ -38,8 +37,7 @@ const codeElementPicture = `<picture>
   alt="Greenlane Watch"
   width="276"
   height="274"
-/>
-</picture>`;
+/>`;
 
 saleProduct.addEventListener("click", (event) => {
     const parentPicture = document.querySelector(".card-buy-watch");
