@@ -41,6 +41,7 @@
   --color-white: #ffffff;
   --color-white-semitransparent: #ffffff80;
   --color-grey: #c6cdd1;
+  --main-background-color: #FBFBFB;
 }
 
 html {
@@ -56,6 +57,13 @@ body {
   letter-spacing: -0.02em;
 
   color: var(--color-black);
+
+}
+
+@media screen and (min-width: 1280px) {
+  body{ 
+    background-color: var(--main-background-color);
+  }   
 }
 
 .container {
