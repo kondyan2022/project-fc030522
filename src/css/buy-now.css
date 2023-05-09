@@ -195,11 +195,22 @@
     width: 368px;
   }
 }
-@media screen and (min-width: 1280) {
-  modal-form {
+@media screen and (min-width: 1280px) {
+  .modal-wrapper {
+    gap: 40px;
+    width: 904px;
+    height: 694px;
+  }
+  .modal-form {
     margin-top: 40px;
   }
+  .modal-form-wrapper {
+    width: 508px;
+  }
+  .modal-form-input {
+    margin-bottom: 24px;
+  }
   .textarea {
-    margin-bottom: 40%;
+    margin-bottom: 40px;
   }
 }
