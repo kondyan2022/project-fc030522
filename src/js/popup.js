@@ -2,10 +2,13 @@ const openBtn = document.querySelector('.catalog-btn');
 const closeBtn = document.querySelector('.modal-close-btn');
 const popup = document.querySelector('.popup-is-hidden');
 const data = {
-  name: null,
+  name: "Tube Watch S42 Date Steel With Black Case",
   elements: null
 }
 function change() {
+  if (data.elements === null) {
+    data.elements = document.querySelector(".catalog-list-item-picture").innerHTML;
+  }
   document.body.classList.toggle('no-scroll');
   popup.classList.toggle('popup-is-hidden');
 }
@@ -68,7 +71,6 @@ function clearClasses(element) {
 }
 const SubmitBtn = document.querySelector(".modal-submit-btn");
 const submitModal = document.querySelector(".submit-is-hidden");
-// const closeSubmitBtn = document.querySelector(".submit-close-btn");
 function modalSubmit() {
   document.body.classList.toggle("no-scroll");
   submitModal.classList.toggle("submit-is-hidden");
@@ -87,9 +89,8 @@ SubmitBtn.addEventListener("click", (event) => {
 
 submitModal.addEventListener("click", event => {
   if (event.target.matches('.submit-wrapper>button.modal-close-btn') &&
-  !event.target.matches(".submit-wrapper>button.submit-button") ||
-  !event.target.matches('.submit-wrapper>button.modal-close-btn') &&
-  event.target.matches(".submit-wrapper>button.submit-button")) return;
-  console.log(event)
+    !event.target.matches(".submit-wrapper>button.submit-button") ||
+    !event.target.matches('.submit-wrapper>button.modal-close-btn') &&
+    event.target.matches(".submit-wrapper>button.submit-button")) return;
   modalSubmit();
 })
