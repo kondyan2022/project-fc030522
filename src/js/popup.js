@@ -1,7 +1,10 @@
 const openBtn = document.querySelector('.catalog-btn');
 const closeBtn = document.querySelector('.modal-close-btn');
 const popup = document.querySelector('.popup-is-hidden');
-
+const data = {
+  name: null,
+  elements: null
+}
 function change() {
   document.body.classList.toggle('no-scroll');
   popup.classList.toggle('popup-is-hidden');
@@ -24,6 +27,8 @@ catalog.addEventListener('click', event => {
   document.querySelector('.modal-watch-price').textContent = parent
     .querySelector('span.catalog-list-item-span')
     .textContent.trim();
+  data.name = event.target.textContent.trim();
+  data.elements = clearClasses(parent);
   change();
 });
 
@@ -48,6 +53,8 @@ saleProduct.addEventListener('click', event => {
       'beforeend',
       `<span class="modal-watch-sale">€1000</span>`
     );
+  data.name = event.target.textContent.trim();
+  data.elements = clearClasses(parent);
   change();
 });
 
@@ -59,3 +66,27 @@ function clearClasses(element) {
     .replace(`class="catalog-list-item-picture"`, '')
     .replace(`class="catalog-list-item-img"`, '');
 }
+const SubmitBtn = document.querySelector(".modal-submit-btn");
+const submitModal = document.querySelector(".submit-is-hidden");
+// const closeSubmitBtn = document.querySelector(".submit-close-btn");
+function modalSubmit() {
+  document.body.classList.toggle("no-scroll");
+  submitModal.classList.toggle("submit-is-hidden");
+}
+
+SubmitBtn.addEventListener("click", (event) => {
+  event.preventDefault();
+
+  submitModal.querySelector(".submit-name").textContent = data.name;
+  submitModal.querySelector(".submit-picture").textContent = "";
+  submitModal.querySelector('.submit-picture')
+    .insertAdjacentHTML('afterbegin', data.elements);
+  change()
+  modalSubmit();
+});
+
+submitModal.addEventListener("click", event => {
+  if (!event.target.matches('.modal-close-btn') &&
+    !event.target.matches("submit-wrapper>button.submit-button")) return;
+  modalSubmit();
+})

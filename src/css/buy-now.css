@@ -1,4 +1,5 @@
-.popup-is-hidden {
+.popup-is-hidden,
+.submit-is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -221,4 +222,53 @@
   .textarea {
     margin-bottom: 40px;
   }
+}
+
+.submit-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 335px;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05),
+    0px 0px 130.6px rgba(0, 0, 0, 0.037963),
+    0px 0px 71.0296px rgba(0, 0, 0, 0.0303704),
+    0px 0px 36.2375px rgba(0, 0, 0, 0.025),
+    0px 0px 18.1704px rgba(0, 0, 0, 0.0196296),
+    0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
+    display: flex;
+    justify-content: center;
+}
+.submit-container {
+  width: 276px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.submit-picture {
+  margin-bottom: 12px;
+}
+.submit-name {
+  margin-bottom: 20px;
+}
+.submit-text {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.submit-button {
+  background-color: var(--color-dark-green);
+  margin-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--color-white);
+  text-transform: uppercase;
 }
