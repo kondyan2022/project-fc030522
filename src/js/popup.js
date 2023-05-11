@@ -28,32 +28,16 @@ catalog.addEventListener('click', event => {
 });
 
 const saleProduct = document.querySelector('.sale-block-title');
-
-// const codeElementPicture =
-//  `<source
-//   srcset="./img/watches-8.webp 1x, ./img/watches-8-2x.webp 2x"
-//   type="image/webp"
-// />
-// <source
-//   srcset="./img/watches-8.jpg 1x, ./img/watches-8-2x.jpg 2x"
-// />
-// <img
-//   src="./img/watches-8.jpg"
-//   alt="Greenlane Watch"
-//   width="276"
-//   height="274"
-// />`;
-
 saleProduct.addEventListener('click', event => {
   const parentPicture = document.querySelector('.card-buy-watch');
 
-  const parent = document.querySelector('.sale-list-item'); //add
+  const parent = document.querySelector('.sale-list-item');
 
   parentPicture.querySelector('picture').textContent = '';
 
   parentPicture
     .querySelector('picture')
-    .insertAdjacentHTML('afterbegin', clearClasses(parent)); //change
+    .insertAdjacentHTML('afterbegin', clearClasses(parent));
 
   document.querySelector('.modal-watch-name').textContent =
     event.target.textContent.trim();

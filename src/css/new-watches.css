@@ -27,6 +27,10 @@
 }
   
 @media screen and (min-width: 1280px) {
+  .new-watch-section {
+    background-color: var(--color-white);
+    }
+
     .new-watch-text {
       margin-bottom: 80px;
     }
