@@ -9,7 +9,6 @@ function change() {
   if (data.elements === null) {
     data.elements = document.querySelector(".catalog-list-item-picture").innerHTML;
   }
-  console.log(data)
   document.body.classList.toggle('no-scroll');
   popup.classList.toggle('popup-is-hidden');
 }
