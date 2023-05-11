@@ -1,4 +1,7 @@
 .hero {
+  /* ------ */
+  padding-top: 122px;
+  /* ------ */
   min-width: 200px;
   background-color: var(--color-black);
 }
@@ -14,6 +17,12 @@
   min-width: 0;
 }
 @media screen and (min-width: 768px) {
+  /* ------ */
+  .hero {
+      padding-top: 148px;
+  }
+    /* ------ */
+  
   .hero > .container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,6 +30,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  /* ------ */
+  .hero {
+    /* padding-top: 148px; */
+  }
+    /* ------ */
+
   .hero > .container {
     display: flex;
     flex-direction: row;

@@ -1,9 +1,14 @@
 .header {
-    margin-bottom: -1px;
+    /* margin-bottom: -1px; */
     min-width: 200px;
     padding-top: 29px;
     padding-bottom: 29px;
     background-color: var(--color-black, #141414);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header-container {
@@ -126,7 +131,7 @@
 
 @media screen and (min-width: 1280px) {
     .header {
-        padding-bottom: 0;
+        /* padding-bottom: 0; */
     }
 
     .header-button {
