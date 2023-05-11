@@ -86,7 +86,10 @@ SubmitBtn.addEventListener("click", (event) => {
 });
 
 submitModal.addEventListener("click", event => {
-  if (!event.target.matches('.modal-close-btn') &&
-    !event.target.matches("submit-wrapper>button.submit-button")) return;
+  if (event.target.matches('.submit-wrapper>button.modal-close-btn') &&
+  !event.target.matches(".submit-wrapper>button.submit-button") ||
+  !event.target.matches('.submit-wrapper>button.modal-close-btn') &&
+  event.target.matches(".submit-wrapper>button.submit-button")) return;
+  console.log(event)
   modalSubmit();
 })
